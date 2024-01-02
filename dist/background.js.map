@@ -1,0 +1,1 @@
+{"version":3,"file":"background.js","mappings":";;;;;AAAA;AACA;AACA;AACA;AACA;AACA;AACA","sources":["webpack://vscode/./src/background/background.ts"],"sourcesContent":["chrome.runtime.onInstalled.addListener(()=> {\r\n    console.log(\"asdfghjk\")\r\n})\r\n\r\nchrome.bookmarks.onCreated.addListener(() => {\r\n  console.log(\"i just booked\");\r\n});"],"names":[],"sourceRoot":""}
